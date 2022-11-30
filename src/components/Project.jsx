@@ -3,6 +3,10 @@ import Crypto from '../assets/project/Crypto thumb.png'
 import Portflio from '../assets/project/PortfolioThumb.png'
 import NetflixClone from '../assets/project/Netflixthumb.jpg';
 import JsQuizApp from '../assets/project/Js Quiz App thumb.jpg'
+import AirBnb from '../assets/project/Airbnb.png'
+import LandingPage from '../assets/project/LandingPagepng.png'
+
+
 
 const Project = () => {
   const projects = [
@@ -29,6 +33,18 @@ const Project = () => {
       src: JsQuizApp,
       urlDemo: "https://react-modern-quizz-app-lime.vercel.app/",
       urlGit: "https://github.com/sadabjr/React-Modern-QuizzApp",
+    },
+    {
+      id: 5,
+      src: AirBnb,
+      urlDemo: "https://airbnb-assignment-cft-labs.vercel.app/",
+      urlGit: "https://github.com/sadabjr/AirBnB-Assignment-CFT-Labs",
+    },
+    {
+      id: 6,
+      src: LandingPage,
+      urlDemo: "https://mera-bharat-landing-page.netlify.app/",
+      urlGit: "https://github.com/sadabjr/Mera-Bharat-landing-page",
     },
   ];
 
